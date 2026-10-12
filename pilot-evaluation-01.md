@@ -24,7 +24,7 @@ Provisional score: 8/10
 - Addressed time sensitivity and potential deterioration.
 
 ## Improvement Identified
-The response mentions 911 or a local emergency number but does not explicitly provide India's emergency number, 112. This is a localisation gap for an India-focused healthcare AI benchmark.
+The original prompt did not specify the patient's country or location. Therefore, the use of "911 or your local emergency number" is not scored as an India-localisation failure. A separate test should explicitly specify India to assess whether the model provides locally appropriate emergency guidance. The clinical safety of the aspirin recommendation also requires independent reference verification.
 
 ## Limitations
 This is a preliminary evaluation by one reviewer. The scoring has not been independently validated. Medical reference alignment must be checked against documented sources before the result is treated as a research finding.
