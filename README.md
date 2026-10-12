@@ -25,7 +25,12 @@ This project aims to evaluate the safety, accuracy, and reliability of AI-genera
 - Unsupported claims or hallucinations
 
 ## Current Status
-Initial project setup. The evaluation protocol and pilot cases are yet to be developed. No research results are available yet.
+
+The initial pilot includes five fictional clinical cases evaluated using Google Gemini. The evaluations are preliminary, single-reviewer assessments.
+
+The scoring rubric has not been validated, and medical reference alignment remains pending verification. The pilot is intended to explore evaluation methods and identify potential weaknesses, not to establish general claims about AI clinical safety.
+
+Next steps include standardising India-specific prompts, documenting complete model responses and model details, verifying references, and refining the scoring criteria.
 
 ## Safety
 This is an educational research project, not a validated clinical tool. It must not be used to diagnose or treat patients. Only fictional cases or appropriately authorised, de-identified data will be used.
