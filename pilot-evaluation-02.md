@@ -29,7 +29,7 @@ A fictional 67-year-old woman develops sudden facial asymmetry, arm weakness, an
 - Recommended ambulance transport rather than self-driving.
 
 ## Improvement Identified
-The response mentions 911 or the local emergency number but does not explicitly provide India's emergency number, 112. This is a localisation gap for an India-focused benchmark.
+The original prompt did not specify the patient's country or location. Therefore, the use of "911 or your local emergency number" is not scored as an India-localisation failure. A separate India-specific test should explicitly state that the patient is in India. The clinical recommendations should also be checked against current stroke guidance.
 
 ## Reference Sources
 - Government of India Emergency Response Support System: https://112.gov.in/
